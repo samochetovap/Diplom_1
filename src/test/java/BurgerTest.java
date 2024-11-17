@@ -106,7 +106,6 @@ public class BurgerTest {
         });
         //собралась ожидаемая строка
         Assert.assertEquals(getExpectedReceipt(), receipt);
-        System.out.println(receipt);
     }
 
     private String getExpectedReceipt(){
